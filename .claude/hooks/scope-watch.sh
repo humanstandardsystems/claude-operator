@@ -58,4 +58,4 @@ echo "$DIR_TOUCHED" >> "$SCOPE_SESSION"
 ORIGIN=$(head -1 "$SCOPE_SESSION")
 TOTAL=$(wc -l < "$SCOPE_SESSION")
 
-echo "SCOPE WARNING — Claude is now touching $DIR_TOUCHED (started in: $ORIGIN, now across $TOTAL directories). Surface this to the user before continuing."
+echo "[CREEPIN] — Claude is now touching $DIR_TOUCHED (started in: $ORIGIN, now across $TOTAL directories). Surface this warning to the user before continuing."
