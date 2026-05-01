@@ -19,10 +19,17 @@ Toggleable control modes for Claude Code.
 ## Setup
 
 ```bash
-git clone https://github.com/humanstandardsystems/operator.git
-cd your-project
-bash /path/to/operator/install.sh
+git clone https://github.com/humanstandardsystems/claude-operator.git ~/operator
+bash ~/operator/install.sh
 ```
+
+Installs globally — `/teach` and `/scope` work in every project, no setup per repo.
+
+```bash
+bash ~/operator/install.sh --project
+```
+
+Project-scoped install instead, if you want it isolated to the current directory.
 
 Both modes are off by default. Toggle them anytime with `/teach` or `/scope`.
 
