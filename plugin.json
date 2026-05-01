@@ -1,0 +1,6 @@
+{
+  "name": "operator",
+  "version": "0.1.0",
+  "description": "Toggleable runtime controls for Claude Code — Teaching Mode narrates every action; Scope Watch alerts when Claude drifts outside its working context.",
+  "priority": 50
+}
